@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+// Nearest Smallest Element to the Right
 vector <int> NS2R(vector <int> v)
 {
     stack <int> s;
@@ -30,6 +32,8 @@ vector <int> NS2R(vector <int> v)
     reverse(op.begin() , op.end());
     return op;
 }
+
+// Nearest Smallest Element to the left
 vector <int> NS2L(vector <int> v)
 {
     stack <int> s;
